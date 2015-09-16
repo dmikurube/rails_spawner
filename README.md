@@ -62,6 +62,34 @@ $ rbenv exec gem which bundler
 $ gem which bundler
 ```
 
+Usage
+-----
+
+- Clone the repository.
+
+```
+$ git clone https://github.com/dmikurube/rails_spawner.git
+```
+
+- Install Rails and its dependencies.
+
+```
+$ bundle install --path vendor/bundle --binstubs vendor/bin
+```
+
+- Check rbenv.
+
+```
+$ which rails
+$ rbenv which rails
+```
+
+- Spawn a new Rails application!
+
+```
+$ rails new ../your-new-application --skip-bundle
+```
+
 Local log
 ---------
 
