@@ -66,3 +66,7 @@ Local log
 - Add vendor/bin/ to be ignored in .gitignore.
 
     $ vi .gitignore
+
+- Install Rails and its dependencies.
+
+    $ bundle install --path vendor/bundle --binstubs vendor/bin
