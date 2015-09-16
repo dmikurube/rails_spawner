@@ -90,6 +90,64 @@ $ rbenv which rails
 $ rails new ../your-new-application --skip-bundle
 ```
 
+After spawn
+-----------
+
+- Go to the new Rails application directory.
+
+```
+$ cd ../your-new-application
+```
+
+- Make it a Git repository.
+
+```
+$ git init
+```
+
+- Specify Ruby's version.
+
+```
+$ rbenv local 2.2.3
+```
+
+- Download .gitignore from GitHub.
+
+```
+$ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Rails.gitignore
+```
+
+- Add vendor/bin/ to be ignored in .gitignore.
+
+```
+$ vi .gitignore
+```
+
+- Check Gemfile.
+
+```
+$ cat Gemfile
+```
+
+- Install Rails and its dependencies.
+
+```
+$ bundle install --path vendor/bundle --binstubs vendor/bin
+```
+
+- Check rbenv.
+
+```
+$ which rails
+$ rbenv which rails
+```
+
+- Start the Rails server.
+
+```
+$ rails s
+```
+
 Local log
 ---------
 
