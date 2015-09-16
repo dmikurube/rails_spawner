@@ -50,3 +50,7 @@ Local log
 - Specify Ruby's version.
 
     $ rbenv local 2.2.3
+
+- Generate Gemfile.
+
+    $ bundle init
