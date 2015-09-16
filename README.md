@@ -148,8 +148,8 @@ $ rbenv which rails
 $ rails s
 ```
 
-Local log
----------
+How rails_spanwer has been created
+----------------------------------
 
 - Specify Ruby's version.
 
