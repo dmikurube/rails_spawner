@@ -54,3 +54,7 @@ Local log
 - Generate Gemfile.
 
     $ bundle init
+
+- Update Gemfile for a specific Rails version. (Uncomment "rails" and add a version "4.2.4".)
+
+    $ vi Gemfile
