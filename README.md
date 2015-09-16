@@ -62,3 +62,7 @@ Local log
 - Download .gitignore from GitHub.
 
     $ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Rails.gitignore
+
+- Add vendor/bin/ to be ignored in .gitignore.
+
+    $ vi .gitignore
