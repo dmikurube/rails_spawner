@@ -58,3 +58,7 @@ Local log
 - Update Gemfile for a specific Rails version. (Uncomment "rails" and add a version "4.2.4".)
 
     $ vi Gemfile
+
+- Download .gitignore from GitHub.
+
+    $ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Rails.gitignore
