@@ -43,3 +43,10 @@ Global pre-requisite
 
     $ rbenv exec gem which bundler
     $ gem which bundler
+
+Local log
+---------
+
+- Specify Ruby's version.
+
+    $ rbenv local 2.2.3
